@@ -1,0 +1,28 @@
+body {
+    height: 90vh;
+    /*background-color: #FEFF5D;*/
+    background-color: #00942F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 400px;
+    height: 150px;
+    cursor: pointer;
+    font-size: 50px;
+    background-color: #E00F0B;
+    color: #E0E022;
+    border: 3px solid #FF2A26;
+    box-shadow: 0px 20px 0px #940604;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all ease 0.2s;
+}
+
+button:hover {
+    color: #E00F0B;
+    background-color: #E0E022;
+}
+
